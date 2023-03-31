@@ -50,6 +50,7 @@ export const ImageGallery = ({ value, openModal }) => {
     };
 
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value, page]);
 
   const onPage = () => {
